@@ -1,5 +1,6 @@
 Sales & Order Management Analytics System
 1. Project Overview
+
 The Sales & Order Management Analytics System is a SQL-based business analytics project designed for an e-commerce or retail business.
 
 The system stores information about customers, products, orders, order items, and payments. SQL is used to manage the data and generate useful business insights such as revenue, order volume, product performance, customer performance, monthly sales, and repeat purchases.
@@ -7,6 +8,7 @@ The system stores information about customers, products, orders, order items, an
 The project demonstrates relational database design, CRUD operations, joins, aggregation, advanced SQL, views, indexing, query optimization, and business reporting.
 
 2. Objectives
+
 The main objectives of the project are:
 
 To design a relational database for sales and order management.
@@ -32,6 +34,7 @@ To use indexes for improving query performance.
 To generate business-oriented reports from transactional data.
 
 3. Business Requirements
+
 The system is designed to track the following business information:
 
 Customer details
@@ -59,6 +62,7 @@ Repeat customer activity
 The resulting analysis can help a business understand its sales performance, customer behavior, and product performance.
 
 4. Database Design
+
 The database contains five main tables:
 
 Customers
@@ -106,7 +110,9 @@ order_id	Related order
 payment_date	Date of payment
 amount	Payment amount
 payment_status	Status of payment
+
 5. Relationships
+
 The main relationships between the tables are:
 
 One customer can place multiple orders.
@@ -128,6 +134,7 @@ customers → orders → order_items → products
 orders → payments
 
 6. Database Constraints
+
 The database uses constraints to maintain data integrity.
 
 The project uses:
@@ -145,6 +152,7 @@ Appropriate numeric and date data types.
 These constraints help maintain consistency and prevent invalid relationships between records.
 
 7. CRUD Operations
+
 CRUD stands for:
 
 Create
@@ -174,6 +182,7 @@ These operations are implemented in:
 03_crud.sql
 
 8. SQL Joins
+
 Different joins are used to combine information stored in different tables.
 
 Inner Join
@@ -198,6 +207,7 @@ These queries are stored in:
 04_joins.sql
 
 9. Business Analytics
+
 Aggregate functions are used to generate business information from the sales data.
 
 The project uses:
@@ -243,6 +253,7 @@ The queries are stored in:
 05_analytics.sql
 
 10. Advanced SQL
+
 Advanced SQL techniques are used to perform more detailed analysis.
 
 Subqueries
@@ -281,6 +292,7 @@ These advanced queries are stored in:
 06_advanced_queries.sql
 
 11. Views
+
 Views provide reusable query results for recurring reports.
 
 The project contains views for:
@@ -300,6 +312,7 @@ The queries are stored in:
 07_views.sql
 
 12. Indexing and Query Optimization
+
 Indexes are created on columns that are frequently used for joins or filtering.
 
 The project creates indexes on:
@@ -336,6 +349,7 @@ Customer order summary
 These reports help management understand sales performance and customer activity.
 
 14. Key Business Insights
+
 The SQL analysis can be used to identify:
 
 Revenue Performance
@@ -357,6 +371,7 @@ Sales Trends
 Monthly revenue analysis helps identify changes in sales over time.
 
 15. Project File Structure
+
 Sales-Order-Analytics/
 
 ├── sql/
@@ -394,6 +409,7 @@ GitHub
 The database uses relational tables, primary keys, foreign keys, constraints, joins, aggregation, advanced SQL techniques, views, and indexes.
 
 17. Conclusion
+
 The Sales & Order Management Analytics System demonstrates how SQL can be used to manage transactional data and convert it into useful business information.
 
 The project covers the complete flow from database design and data insertion to CRUD operations, joins, business analytics, advanced SQL, reusable views, indexing, query optimization, and reporting.
@@ -401,6 +417,7 @@ The project covers the complete flow from database design and data insertion to 
 The system provides a foundation for analyzing customer behavior, product performance, revenue, order activity, and sales trends.
 
 18. Future Enhancements
+
 Possible future enhancements include:
 
 Power BI or Tableau dashboard integration
