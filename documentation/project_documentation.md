@@ -418,8 +418,3 @@ Advanced query optimization
 Data warehouse integration
 
 ETL pipeline development
-
-⋮⋮⋮⋮
-
-
-⋮⋮⋮⋮
